@@ -1,0 +1,21 @@
+#startScreen
+{
+	position:relative;
+	margin:0 auto;
+	margin-top:200px;
+	opacity:0;
+	transition:all 1000ms ease-out;
+}
+
+#startScreen.show
+{
+	opacity:1;
+	margin-top:100px;
+}
+
+#startScreen.remove
+{
+	opacity:0;
+	margin-top:150px;
+	transition:all 500ms ease-out;
+}

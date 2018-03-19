@@ -1,0 +1,50 @@
+#longRestBtn
+{
+	position:relative;
+	margin:0 auto;
+	margin-top:500px;
+	padding-top:50px;
+	width:150px;
+	height:100px;
+	border-radius:50%;
+	background-color:#ffffff;
+	text-align:center;
+	font-size:1.2em;
+	font-weight:lighter;
+	color:#00b8ff;
+	cursor:pointer;
+	opacity:0;
+	transition:all 500ms ease-in-out;
+}
+
+#longRestBtn.show
+{
+	margin-top:0px;
+	opacity:.5;
+}
+
+#longRestBtn.remove
+{
+	margin-top:500px;
+	opacity:0;
+}
+
+#longRestBtn:hover
+{
+	opacity:1;
+}
+
+#longRestBtn .btnTime
+{
+	margin-top:0px;
+}
+
+#longRestBtn .btnLarge
+{
+	font-size:2.5em;
+}
+
+#longRestBtn .btnSmall
+{
+	font-size:1em;
+}

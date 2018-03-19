@@ -1,0 +1,36 @@
+#focusScreen
+{
+	position:relative;
+	margin:0 auto;
+	margin-top:100px;
+	opacity:0;
+	transition:all 1000ms ease-out;
+}
+
+#focusScreen.show
+{
+	opacity:1;
+}
+
+#focusScreen.remove
+{
+	opacity:0;
+	margin-top:100px;
+	transition:all 500ms ease-in;
+}
+
+@media screen and (max-width: 600px)
+{
+	#focusScreen
+	{
+		margin-top:50px;
+	}
+}
+
+@media only screen and (orientation: landscape) and (max-device-width: 736px)
+{
+	#focusScreen
+	{
+		margin-top:10px;
+	}
+}

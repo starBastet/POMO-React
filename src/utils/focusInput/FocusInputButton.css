@@ -1,0 +1,17 @@
+#focusInputButton
+{
+	float:left;
+	margin:0 auto;
+	margin-left:15px;
+	width:30px;
+	height:30px;
+	background-image:url(img/arrowBtn.png);
+	cursor:pointer;
+	opacity:.5;
+	transition:all 500ms;
+}
+
+#focusInputButton.over
+{
+	opacity:1;
+}

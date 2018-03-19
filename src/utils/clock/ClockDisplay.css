@@ -1,0 +1,24 @@
+#clock
+{
+	margin:0 auto;
+	margin-top:20px;
+	text-align:center;
+	font-size:16em;
+	color:#ff0000;
+	font-weight:lighter;
+}
+
+@media screen and (max-width: 600px) {
+	#clock
+	{
+		font-size:8em;
+	}
+}
+
+@media only screen and (orientation: landscape) and (max-device-width: 736px)
+{
+	#clock
+	{
+		margin-top:-10px;
+	}
+}

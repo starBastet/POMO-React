@@ -1,0 +1,48 @@
+[
+  {
+    "BRANDING_A":["POMO","#ffffff","#ff0000"],
+    "PHASES":["START","FOCUS","REST","CRUSHED"],
+    "SCREENS":
+    {
+      "START":
+      {
+        "BLURB_A":["POMO","helps you focus","25 min on / 5 min rests"],
+        "PROMPT_TEXT":"What are you focusing on?",
+        "DEFAULT_TASK_TEXT":"This thing right here",
+        "INPUT_MAX":"40",
+        "BKGND_COLOR":"#ff0000"
+      },
+      "FOCUS":
+      {
+        "BLURB_A":[["Focusing on","#d4d4d4"],["","#9b9b9b"]],
+        "TIME":"0",
+        "CLOCK_COLOR":"#ff0000",
+        "BKGND_COLOR":"#ffffff"
+      },
+      "REST":
+      {
+        "BLURB_A":[["Time for","#ffffff"],["Resting :)","#ffffff"]],
+        "TIME":"0",
+        "LONG_REST_TIME":"1",
+        "LONG_REST_BTN_TEXT_A":["LONG REST","30","MIN"],
+        "CLOCK_COLOR":"#ffffff",
+        "BKGND_COLOR":"#00b8ff",
+        "SVG_DETAILS":
+        {
+          "CLASS_NAME":"cloud",
+          "AMOUNT":"2"
+        }
+      },
+      "CRUSHED":
+      {
+        "BLURB_A":[["You crushed your tomato!","#ffffff"],["Where to next?","#ffffff"]],
+        "BKGND_COLOR":"#FF6C00",
+        "SVG_DETAILS":
+        {
+          "CLASS_NAME":"star",
+          "AMOUNT":"4"
+        }
+      }
+    }
+  }
+]

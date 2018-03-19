@@ -1,0 +1,41 @@
+#brandingContainer
+{
+	position:relative;
+	margin:0 auto;
+	margin-bottom:40px;
+	left:7%;
+	top:30px;
+	font-size:1.2em;
+	font-weight:bold;
+	opacity:1;
+	transition:all 500ms ease-in-out;
+}
+
+#brandingContainer.show
+{
+	opacity:1;
+}
+
+.brandingImage
+{
+	position:relative;
+	display:inline-block;
+	margin:0 auto;
+	width:26px;
+	height:26px;
+	background-color:#ffffff;
+	-webkit-mask:url(img/tomato.svg) no-repeat;
+	mask:url(img/tomato.svg) no-repeat;
+	transition:all 700ms ease-in-out;
+}
+
+.brandingText
+{
+	position:relative;
+	display:inline-block;
+	margin:0 auto;
+	margin-left:10px;
+	top:-6px;
+	color:#ffffff;
+	transition:all 700ms ease-in-out;
+}

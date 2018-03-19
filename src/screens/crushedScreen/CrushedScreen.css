@@ -1,0 +1,89 @@
+#crushedScreen
+{
+	position:relative;
+	margin:0 auto;
+	margin-top:100px;
+	opacity:0;
+	transition:all 1000ms ease-out;
+}
+
+#crushedScreen.show
+{
+	opacity:1;
+}
+
+#crushedScreen.remove
+{
+	opacity:0;
+	margin-top:100px;
+	transition:all 500ms ease-in;
+}
+
+.star
+{
+	position:absolute;
+	margin:0 auto;
+	background-image:url(img/star.svg);
+	opacity:0.25;
+}
+
+.star1
+{
+	width:100px;
+	height:200px;
+	top:-90px;
+	left:50%;
+	background-size:100px 200px;
+	-ms-transform:rotate(-70deg);
+	-webkit-transform:rotate(-70deg);
+	transform:rotate(-70deg);
+}
+
+.star2
+{
+	width:500px;
+	height:600px;
+	top:-120px;
+	left:1%;
+	background-size:500px 600px;
+}
+
+.star3
+{
+	width:400px;
+	height:500px;
+	top:280px;
+	left:20%;
+	background-size:400px 500px;
+	-ms-transform:rotate(100deg);
+	-webkit-transform:rotate(100deg);
+	transform:rotate(100deg);
+}
+
+.star4
+{
+    width:700px;
+    height:800px;
+    top:-20px;
+    left:50%;
+    background-size:700px 800px;
+    -ms-transform:rotate(100deg);
+    -webkit-transform:rotate(100deg);
+    transform:rotate(100deg);
+}
+
+@media screen and (max-width: 600px)
+{
+	#crushedScreen
+	{
+		margin-top:50px;
+	}
+}
+
+@media only screen and (orientation: landscape) and (max-device-width: 736px)
+{
+	#crushedScreen
+	{
+		margin-top:10px;
+	}
+}

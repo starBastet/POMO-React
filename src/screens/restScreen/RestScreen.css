@@ -1,0 +1,68 @@
+#restScreen
+{
+	position:relative;
+	margin:0 auto;
+	margin-top:100px;
+	opacity:0;
+	transition:all 1000ms ease-out;
+}
+
+#restScreen.show
+{
+	opacity:1;
+}
+
+#restScreen.remove
+{
+	opacity:.2;
+	margin-top:100px;
+	transition:all 500ms ease-in;
+}
+
+.cloud
+{
+	position:absolute;
+	/*margin:0 auto;*/
+	background-image:url(img/cloud.svg);
+    fill: white;
+    opacity: 0.35;
+}
+
+.cloud1
+{
+    width:1200px;
+    height:600px;
+	top:200px;
+    bottom:-250px;
+    right:-350px;
+    background-size:1200px 600px;
+	fill:#ffffff;
+}
+
+.cloud2
+{
+    width:800px;
+    height:500px;
+	top:220px;
+    bottom:-200px;
+    left:-250px;
+    background-size:800px 500px;
+	fill:#ffffff;
+
+}
+
+@media screen and (max-width: 600px)
+{
+	#restScreen
+	{
+		margin-top:50px;
+	}
+}
+
+@media only screen and (orientation: landscape) and (max-device-width: 736px)
+{
+	#restScreen
+	{
+		margin-top:10px;
+	}
+}

@@ -1,0 +1,15 @@
+#welcomeText
+{
+	margin:0 auto;
+	margin-top:50px;
+	text-align:center;
+	font-size:2.2em;
+	color:#fff;
+	font-weight:lighter;
+}
+
+#welcomeText .welcomeSmall
+{
+	margin-top:20px;
+	font-size:.6em;
+}
